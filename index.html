@@ -15,7 +15,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="m-0 p-0 box-border">
     <header>
         <nav class="container px-8 lg:px-12 mx-auto mt-6 lg:mt-8">
             <div class="navbar bg-base-100">
@@ -62,7 +62,7 @@
             </div>
 
 
-            <div class="text-center absolute bg-slate-100/10 rounded-3xl w-full h-full top-0 left-0 p-8">
+            <div class="text-center absolute bg-slate-100/10 rounded-3xl w-full h-full top-0 left-0 pt-20">
                 <h1 class="font-Raleway text-6xl font-extrabold text-white mb-4">End-to-End Travel with<br>
                     <span class="text-[#1DD100]">P Paribahan</span>
                 </h1>
@@ -73,9 +73,9 @@
                     Tickets</button>
 
 
-                <div class="flex justify-center items-center gap-2 relative -top-16">
+                <div class="flex justify-center items-center gap-2 relative top-10">
                     <div
-                        class="card flex flex-row gap-3 justify-start items-center p-7 bg-white border-b-4 border-[#1DD100]">
+                        class="card flex flex-row gap-4 justify-start items-center px-16 py-10 bg-white border-b-4 border-[#1DD100]">
                         <img class="" src="./images/people.png" alt="">
                         <div>
                             <h2 class="text-4xl font-Inter font-bold text-left text-[#030712] mb-2">500K+</h2>
@@ -83,7 +83,7 @@
                         </div>
                     </div>
                     <div
-                        class="card flex flex-row gap-3 justify-start items-center p-7 bg-white border-b-4 border-[#1DD100]">
+                        class="card flex flex-row gap-4 justify-start items-center px-16 py-10 bg-white border-b-4 border-[#1DD100]">
                         <img class="" src="./images/ticket-cupon.png" alt="">
                         <div>
                             <h2 class="text-4xl font-Inter font-bold text-left text-[#030712] mb-2">1.7 lacks</h2>
@@ -91,7 +91,7 @@
                         </div>
                     </div>
                     <div
-                        class="card flex flex-row gap-3 justify-start items-center p-7 bg-white border-b-4 border-[#1DD100]">
+                        class="card flex flex-row gap-4 justify-start items-center px-16 py-10 bg-white border-b-4 border-[#1DD100]">
                         <img class="" src="./images/stoppage.png" alt="">
                         <div>
                             <h2 class="text-4xl font-Inter font-bold text-left text-[#030712] mb-2">80K+</h2>
@@ -142,17 +142,412 @@
 
         </section>
 
-        <section class="container px-8 lg:px-12 mx-auto border-t-2 border-[#1DD100] bg-[#F7F8F8] rounded-tr-full rounded-tl-full" >
+        <section
+            class="container px-8 lg:px-12 mx-auto border-t-2 border-[#1DD100] bg-[#F7F8F8] rounded-tr-[88px] rounded-tl-[88px] border-none outline-none">
             <div class="">
-                <div class="mt-24 text-center">
+                <div class="pt-24 text-center">
                     <h2 class="text-4xl font-bold font-Raleway text-[#030712] mb-7">P.H Paribahan</h2>
-                    <p class="text-lg font-normal font-Inter text-[#03071299] mb-11">Yes, you can run unit tests and view the results directly within the app. The integrated <br> testing features allow for a streamlined .</p>
+                    <p class="text-lg font-normal font-Inter text-[#03071299] mb-11">Yes, you can run unit tests and
+                        view the results directly within the app. The integrated <br> testing features allow for a
+                        streamlined .</p>
                 </div>
             </div>
 
             <div>
-                <div></div>
+                <div class="flex flex-1 items-center bg-white rounded-3xl border-none outline-none">
+                    <div class="px-8">
+                        <div class="flex justify-between">
+                            <div class="flex justify-between items-center gap-4">
+                                <div><img class="" src="./images/bus-logo.png" alt=""></div>
+                                <div>
+                                    <h2 class="font-Raleway text-3xl font-bold text-[#030712] mb-3">Greenline Paribahan
+                                    </h2>
+                                    <p class="font-Inter font-normal text-lg text-[#03071299]">Coach-009-WEB !
+                                        AC_Business</p>
+                                </div>
+                            </div>
+                            <div class="p-8">
+                                <button
+                                    class="btn bg-[#1dd10019] text-[#1DD100] text-xl font-bold mr-4 border border-[#1dd10066]">
+                                    <img src="./images/seat-green.png" alt="">
+                                    <p> <span>40</span> Seats left</p>
+                                </button>
+                            </div>
+                        </div>
+
+
+
+                        <div class="rounded-3xl bg-[#F7F8F8] border-none outline-none px-8">
+                            <div>
+                                <div class="flex justify-between items-center border-b-2 border-dashed py-6 px-3">
+                                    <p class="font-semibold text-lg font-Raleway text-[#03071299]">Route</p>
+                                    <p class="font-semibold font-Raleway text-lg text-[#030712]">Dhaka - Sylhet</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between items-center border-b-2 border-dashed py-6 px-3">
+                                    <p class="font-semibold text-lg font-Raleway text-[#03071299]">Departure Time</p>
+                                    <p class="font-semibold font-Raleway text-lg text-[#030712]">9:00 PM</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex gap-6 justify-between items-center py-6">
+                                    <button
+                                        class="btn py-4 px-5 text-[#03071299] font-medium text-base font-Inter">Boarding
+                                        Point - Laxmipur</button>
+                                    <button
+                                        class="btn py-4 px-5 text-[#03071299] font-medium text-base font-Inter">Dropping
+                                        Point - Bogura</button>
+                                    <button class="btn py-4 px-5 text-[#03071299] font-medium text-base font-Inter">Est.
+                                        Time - 11 Hour</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div>
+                        <img src="./images/info-devider.png" alt="">
+                    </div>
+                    <div>
+                        <div class="flex flex-col justify-center items-center mx-auto text-center px-4">
+                            <div>
+                                <img src="./images/fare.png" alt="">
+                            </div>
+                            <h2 class="font-bold text-3xl font-Raleway text-[#030712] my-4">550 Taka</h2>
+                            <p class="font-normal text-2xl font-Raleway text-[#03071299]">Per Seat</p>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+
+            <div class="grid grid-cols-2 justify-between bg-white rounded-3xl border-none outline-none mt-7 p-8">
+                <div class="border-r-2 border-dashed p-8">
+                    <div>
+                        <h2 class="font-Raleway text-2xl font-semibold text-[#030712] mb-6">Select Your Seat</h2>
+                    </div>
+                    <div class="flex justify-between items-center border-y-2 border-dashed">
+                        <div class="flex gap-2 justify-between items-center py-5">
+                            <img src="./images/seat-gray.png" alt="">
+                            <p class="font-Inter text-lg font-medium text-[#03071280]">Available</p>
+                        </div>
+                        <div class="flex gap-2 justify-between items-center py-5">
+                            <img src="./images/seat-green.png" alt="">
+                            <p class="font-Inter text-lg font-medium text-[#1DD100]">Selected</p>
+                        </div>
+                    </div>
+
+                    <div class="">
+                        <table class="text-center w-full my-4 table-auto">
+                            <tr class="mx-4 my-4">
+                                <td> </td>
+                                <td> </td>
+                                <td> </td>
+                                <td> </td>
+                                <td> </td>
+                                <td><img class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl"
+                                        src="./images/driving.png" alt=""></td>
+                            </tr>
+
+                            <tr class="">
+                                <td>A</td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl mx-4">A1</button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl">A2</button>
+                                </td>
+                                <td><button class="font-Inter text-[#03071280] text-lg font-medium rounded-xl"></button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl m-4">A3</button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl">A4</button>
+                                </td>
+                            </tr>
+                            </tr>
+
+                            <tr class="">
+                                <td>B</td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl mx-4">B1</button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl">B2</button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium py-4 px-4 rounded-xl"></button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl m-4">B3</button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl">B4</button>
+                                </td>
+                            </tr>
+
+
+                            <tr class="">
+                                <td>C</td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl mx-4">C1</button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl">C2</button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium py-4 px-4 rounded-xl"></button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl m-4">C3</button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl">C4</button>
+                                </td>
+                            </tr>
+
+
+                            <tr class="">
+                                <td>D</td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl mx-4">D1</button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl">D2</button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium py-4 px-4 rounded-xl"></button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl m-4">D3</button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl">D4</button>
+                                </td>
+                            </tr>
+
+
+                            <tr class="">
+                                <td>E</td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl mx-4">E1</button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl">E2</button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium py-4 px-4 rounded-xl"></button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl m-4">E3</button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl">E4</button>
+                                </td>
+                            </tr>
+
+
+                            <tr class="">
+                                <td>F</td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl mx-4">F1</button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl">F2</button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium py-4 px-4 rounded-xl"></button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl m-4">F3</button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl">F4</button>
+                                </td>
+                            </tr>
+
+
+
+                            <tr class="">
+                                <td>G</td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl mx-4">G1</button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl">G2</button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium py-4 px-4 rounded-xl"></button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl m-4">G3</button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl">G4</button>
+                                </td>
+                            </tr>
+
+
+
+                            <tr class="">
+                                <td>H</td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl mx-4">H1</button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl">H2</button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium py-4 px-4 rounded-xl"></button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl m-4">H3</button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl">H4</button>
+                                </td>
+                            </tr>
+
+
+
+                            <tr class="">
+                                <td>I</td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl mx-4">I1</button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl">I2</button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium py-4 px-4 rounded-xl"></button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl m-4">I3</button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl">I4</button>
+                                </td>
+                            </tr>
+
+
+
+                            <tr class="">
+                                <td>J</td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl mx-4">J1</button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl">J2</button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium py-4 px-4 rounded-xl"></button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl m-4">J3</button>
+                                </td>
+                                <td><button
+                                        class="font-Inter text-[#03071280] text-lg font-medium bg-[#F7F8F8] py-4 px-8 rounded-xl">J4</button>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </div>
+
+
+                <div class="px-4  mt-7 ">
+                    <div class=" border-b-2 border-dashed mx-4">
+                        <h2 class="font-Raleway text-2xl font-semibold text-[#030712] mb-6">Select Your Seat</h2>
+                    </div>
+
+                    <div class="my-6 bg-[#F7F8F8] p-8 rounded-xl">
+                        <div class="border-b-2 border-dashed flex justify-between py-6">
+                            <div>
+                                <p class="font-Inter font-medium text-base text-[#030712]">Seat</p>
+                                <p></p>
+                            </div>
+                            <div>
+                                <p class="font-Inter font-medium text-base text-[#030712]">Class</p>
+                            </div>
+                            <div>
+                                <p class="font-Inter font-medium text-base text-[#030712]">Price</p>
+                            </div>
+                        </div>
+
+                        <div class="border-b-2 mb-4">
+                            <div class="flex justify-between py-6">
+                                <div>
+                                    <p class="font-Inter font-medium text-base text-[#03071299]">C2</p>
+                                </div>
+                                <div>
+                                    <p class="font-Inter font-medium text-base text-[#03071299]">Economy</p>
+                                </div>
+                                <div>
+                                    <p class="font-Inter font-medium text-base text-[#03071299]">550</p>
+                                </div>
+                            </div>
+
+                            <div class="flex justify-between py-6">
+                                <div>
+                                    <p class="font-Inter font-medium text-base text-[#03071299]">C2</p>
+                                </div>
+                                <div>
+                                    <p class="font-Inter font-medium text-base text-[#03071299]">Economy</p>
+                                </div>
+                                <div>
+                                    <p class="font-Inter font-medium text-base text-[#03071299]">550</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex justify-between">
+                            <p class="font-Inter font-medium text-base text-[#030712]">Total Price</p>
+                            <p class="font-Inter font-medium text-base text-[#030712]">BDT 1100</p>
+                        </div>
+
+                        <div class="my-4">
+                            <input class="w-full px-6 py-6 bg-white rounded-xl relative" type="text" name="" id="" placeholder="Have any coupon?">
+                            <button class="btn bg-[#1DD100] absolute px-5 py-4 right-48 translate-y-3 translate-x-2 text-white">Apply</button>
+                        </div>
+
+                        <div class="flex justify-between">
+                            <p class="font-Inter font-medium text-base text-[#030712]">Grand Total</p>
+                            <p class="font-Inter font-medium text-base text-[#030712]">BDT 1100</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <form action="">
+                            <label class="font-Inter font-medium text-base text-[#030712]" for="user-name">Passenger Name*</label> <br>
+                            <input class="w-full px-6 py-6 bg-white rounded-xl relative border-2 outline-none my-4" type="text" name="user-name" id="" placeholder="Enter your name
+                            "> <br>
+
+                            <label class="font-Inter font-medium text-base text-[#030712]" for="phone-number">Phone Number*</label> <br>
+                            <input class="w-full px-6 py-6 bg-white rounded-xl relative border-2 outline-none my-4" type="number" name="phone-number" id="" placeholder="Enter your phone number
+                            "> <br>
+
+                            <label class="font-Inter font-medium text-base text-[#030712]" for="email">Email ID
+                            </label> <br>
+                            <input class="w-full px-6 py-6 bg-white rounded-xl relative border-2 outline-none my-4" type="email" name="email" id="" placeholder="Enter your email id
+                            ">
+                            <button class="btn w-full text-white font-bold text-xl bg-[#1DD100] px-5 py-3 mb-8">Next</button>
+                        </form>
+                    </div>
+
+                    <div class="flex justify-between">
+                        <a class="underline font-Inter font-medium text-base text-[#03071299]" href="">Terms and Conditions</a>
+                        <a class="underline font-Inter font-medium text-base text-[#03071299]" href="">Cancellation Policy</a>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+        </div>
+        </div>
         </section>
     </main>
     <footer></footer>
