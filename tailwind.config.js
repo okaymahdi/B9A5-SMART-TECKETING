@@ -6,6 +6,8 @@ module.exports = {
         fontFamily: {
             'Raleway': ['Raleway', 'sans-serif'],
             'Inter': ['Inter', 'sans-serif'],
+            'Roboto': ['Roboto', 'sans-serif'],
+            
         }
     },
     plugins: [],

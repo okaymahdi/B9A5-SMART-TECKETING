@@ -95,7 +95,9 @@ function grandTotal() {
     else {
         setInnerText('grandTotal', convertedToNumber);
     }
-
-
 }
 
+const applyBtn = document.getElementById('applyBtn');
+applyBtn.addEventListener('click', function (e) {
+    applyBtn.style.display = 'none';
+})
